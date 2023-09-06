@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dropdown-menu {
+    background-color: rgba(248, 249, 250, 0.5) !important;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover !important;
+}
+.navbar{
+    background-color: rgba(248, 249, 250, 0.7);
+}
+.content-section1 {
+    width: 70%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0 !important;
+    padding-top: 25px;
+    left: 15%;
+    background-color: #17a2b859 !important;
+    text-align: center;
+}
+
+.visit-us {
+    border: none;
+    width: 75px;
+    height: 38px;
+    font-size: 20px;
+    border-radius: 4px;
+
+}
+
+.icon-section1 {
+    position: fixed;
+    right: 0;
+    top: 0px;
+    margin-top: 150px;
+    margin-right: 20px;
+    z-index: 5;
+
+}
+
+.icon-section1 a {
+    line-height: 50px;
+    font-size: 40px;
+    color: rgba(12, 68, 77, 0.7);
+    padding-top: 10px;
+  
+}
+
+.icon-section1 a:hover  {
+    color: #c1f2fa59 !important;
+}
+
+.welcome {
+    height: 270px !important;
+    padding-top: 20px !important;
+}
+
+.popular {
+    background-color: rgb(90, 150, 190) !important;
+    height: 170px !important;
+    text-align: center;
+    font-size: 40px;
+}
+
+.transelate {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: rgb(90, 150, 190) !important;
+
+}
+
+.press-here {
+    width: 100%;
+    height: 300px;
+
+}
+
+.section-destination {
+    width: 100%;
+    height: 340vh;
+    background-image: url(../images/images/luxur/img9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/* @media (max-width:600px ){
+    .section-destination {
+        width: 100%;
+        
+        
+        background-image: url(../images/images/luxur/img9.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+    }
+} */
+
+ @media (max-width:600px ){
+    .gcard {
+        width: 200px !important;
+        height: 400px !important;
+        
+        
+    }
+} 
+
+.title-destination {
+   
+    text-align: center;
+    font-size: 30px;
+}
+.cards{
+    width: 100%;
+    height: 280vh;
+    position: absolute;
+    top: 400px;
+}
+.section-thanks {
+    width: 100%;
+    height: 150vh;
+    background-image: url(../images/images/aswan/img7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.title-thanks {
+   
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.team{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 400px;
+}
+.card-team1{
+    position: relative;
+    transition: 0.5s;
+    border-radius: 30px !important;
+}
+.card{
+    position: relative;
+}
+.card::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s;
+    background-color: #c4c4c4;
+    opacity: 0;
+    
+}
+.card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+
+} 
+.card::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    background-color: #c2c2c2;
+    opacity: 0;
+    
+}
+.card:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+} 
+.card-team1:hover{
+transform: scale(0.9,0.9);
+
+}
+.card-img-overlay{
+    transition: 0.5s;
+    
+}
+.card-team1:hover .card-img-overlay{
+    background-color:rgba(41, 64, 83, 0.534) !important;
+}
+.content-team{
+    position: absolute;
+}
+.icon-trainer{
+    position: absolute;
+    bottom: 40px;
+    left: 10px !important;
+}
+.name-team{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+.podcast{
+    margin: 0 10%;
+    margin-top: 10px !important;
+    height: 400px;
+    width: 80%;
+    background-color: rgb(218, 218, 224);
+    border-radius: 15px !important;
+    box-shadow: 0px 0px 9px 25px #f1f3f4 !important;
+}
+.podcast-title{
+    font-size: 35px;
+}
+.line-podcast{
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.p-podcast{
+    padding-right: 300px;
+    padding-top: 10px;
+}
+.button-play{
+    border: none !important;
+}
+.button-play:hover{
+    background-color: #17a2b8 !important;
+    color: gray;
+}
+.join-us{
+    margin: 0 15%;
+    height: 300px;
+    width: 70%;
+}
+.join:hover{
+    transition: .5s;
+    transform: scale(1.1,1.1);
+}
+td a:hover{
+    color: black !important;
+}
+#myModal{
+    position: absolute;
+    top: 0;
+    z-index: 15;
+}
+.cards-parent1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
